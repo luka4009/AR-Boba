@@ -1,0 +1,11 @@
+<model-viewer src="Choc3231323obobassss.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" environment-image="aircraft_workshop_01_1k.hdr" skybox-image="aircraft_workshop_01_1k.hdr" autoplay camera-orbit="-93.12deg 78deg 31.66m" field-of-view="16.86deg" min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 78deg auto">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
